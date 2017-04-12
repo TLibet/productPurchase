@@ -14,7 +14,7 @@
         android:id="@+id/productImage"
         android:layout_width="100sp"
         android:layout_height="100sp"
-        android:src="@drawable/logoBlack" />
+        android:src="@drawable/logoblack" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -64,7 +64,7 @@
             android:layout_below="@id/subtract"
             android:layout_centerHorizontal="true"
             android:layout_marginLeft="10dp"
-            android:layout_toRightOf="@id/productImage"
+            android:onClick="submitOrder"
             android:text="ORDER" />
 
         <TextView
